@@ -1,0 +1,166 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+        * {
+            box-sizing: border-box;
+        }
+        .name{
+            color: #ff3008 !important;
+            display: block;
+            font-size: 2em !important;
+            margin-block-start: 0.67em!important;
+            margin-block-end: 0.67em!important;
+            margin-inline-start: 0px !important;
+            margin-inline-end: 0px !important;
+            font-weight: bold !important;
+            unicode-bidi: isolate!important;
+        }
+        .del-time{
+            font-size: max(16px, 1rem);
+        }
+        .del-time span{
+            font-weight: 700;
+            color: inherit;
+            text-decoration: none;
+        }
+        .links{
+        text-decoration: none;
+        color: #ff3008;
+        font-size: max(16px, 1rem);
+        
+        }
+        </mj-style>    
+        <mj-style inline="inline">
+            .star td{
+                padding: 0 !important;
+                width: 60px!important;
+                height: 60px!important;
+            }
+            .star{
+                padding: 0 !important;
+                width: 60px!important;
+            }
+        </mj-style>    
+    </mj-head>
+    <mj-body background-color="#f4f4f4">
+        <mj-raw>
+            <!-- Header -->
+        </mj-raw>
+        <mj-section padding-left="0px">
+            <mj-column padding-left="0px">
+                <mj-image src="https://i.postimg.cc/0yrsCZBM/header-logo.png" alt="" href="#" align="left" padding-left="0px" width="448px"/>
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- thanks and delivery time  section -->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <h1 class="name">Thanks for your order, Angela</h1>
+                </mj-text>
+                <mj-image src="https://i.postimg.cc/3rCYrkGR/section-1-img.png" alt="" href="#" align="left" / >
+                <mj-text>
+                   <p class="del-time">The estimated delivery time for your order is <span>10:59 AM - 11:14 AM</span>. Track your order in the DoorDash app or website.</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- order total -->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                   <p class="del-time">
+                    Paid with Apple Pay and/or credits
+                    </p>
+                </mj-text>
+                <mj-text>
+                   <p class="del-time">
+                    Coya’s Cafe
+                    </p>
+                </mj-text>
+                <mj-text>
+                   <p class="del-time">
+                   <span>Total: $20.82</span>
+                    
+                    </p>
+                </mj-text>
+                <mj-text>
+                   <p class="del-time">
+                   <span>Your receipt</span>
+                    </p>
+                </mj-text>
+                <mj-text>
+                   <p class="del-time">
+                    123 Main St, New York, NY 11111, USA
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-group>
+                <mj-column>
+                    <mj-text>
+                    <p  class="del-time"><span>Estimated Total</span></p>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text align="right">
+                    <p  class="del-time"> <span>$20.82</span></p>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-raw>
+            <!-- recipt links -->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    <a href="#" class="links">View Full Receipt</a>
+                </mj-text>
+                <mj-text>
+                    <a href="#" class="links">Get Order Help</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-raw>
+            <!-- review store  -->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                   <p class="del-time">
+                   <span>Review this Store</span>
+                    </p>
+                </mj-text>
+                <mj-text padding-top="0">
+                   <p class="del-time" >
+                    Share your thoughts on your order with fellow customers and Coya’s Cafe.
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section> 
+        <mj-group width="300px">
+            <mj-column css-class="star">
+                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="60px" align="left"/>
+            </mj-column>
+            <mj-column css-class="star">
+                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="60px" align="left"/>
+            </mj-column>
+            <mj-column css-class="star">
+                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="60px" align="left" />
+            </mj-column>
+            <mj-column css-class="star">
+                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="60px" align="left"/>
+            </mj-column >
+            <mj-column css-class="star">
+                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="60px" align="left"/>
+            </mj-column>
+        </mj-group>
+
+        </mj-section>
+    </mj-body>
+</mjml>
