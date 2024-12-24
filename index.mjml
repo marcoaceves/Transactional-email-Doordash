@@ -17,6 +17,7 @@
         }
         .del-time{
             font-size: max(16px, 1rem)!important;
+            line-height: 1.5rem!important;
         }
         .address{
             font-size: max(16px, 1rem)!important;
@@ -34,12 +35,26 @@
         font-size: max(16px, 1rem)!important;
         
         }
+        .footer-icon-text{
+            font-family: 'TTNorms', system-ui, sans-serif!important;
+            font-size: 16px!important;
+            line-height: 22px!important;
+            font-weight: 500!important;
+            margin: 0!important;
+        }
         </mj-style>    
         <mj-style inline="inline">
             .star td{
                 padding: 0 !important;
                 width: 30px!important;
                 height: 30px!important;
+            }
+            .half{
+                width: 50% !important;
+            }
+            .border-bottom{
+            padding: 48px 0 32px 0 !important;
+            border-bottom: 1px solid #e7e7e7 !important;
             }
 
         </mj-style>    
@@ -95,7 +110,7 @@
                 </mj-text>
                 <mj-text>
                    <p class="address" >
-                    123 Main St, New York, NY 11111, USA
+                    <span>123 Ma<span>in</span> St</span> <span>, Ne</span>w <span>Yor</span>k, <span>N</span>Y <span>11</span>111, USA
                     </p>
                 </mj-text>
             </mj-column>
@@ -144,22 +159,65 @@
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section > 
-        <mj-group width="200px">
-            <mj-column css-class="star">
-                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="center"/>
+        <mj-section padding-left="21px" > 
+            <mj-group width="50%" css-class="half">
+                <mj-column css-class="star">
+                    <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="left"/>
+                </mj-column>
+                <mj-column css-class="star">
+                    <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="left"/>
+                </mj-column>
+                <mj-column css-class="star">
+                    <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="left" />
+                </mj-column>
+                <mj-column css-class="star">
+                    <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="left"/>
+                </mj-column >
+                <mj-column css-class="star">
+                    <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="left"/>
+                </mj-column>
+            </mj-group>
+            <mj-group css-class="half">
+                <mj-column width="50%">
+                    <mj-text>
+                        <span> </span>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-raw>
+            <!-- footer -->
+        </mj-raw>
+        <mj-section padding-top="50px">
+            <mj-column css-class="border-bottom">
+             <mj-image src="https://i.postimg.cc/NF4cdntT/footer-logo.png" alt="" width="183px" align="left" />
+            </mj-column>        
+        </mj-section>
+        <mj-section>
+        <mj-group>
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/7Zcyt7FB/mobile-icon.png" alt="" width="55px" align="left" />
+                <mj-text>
+                    <h3 class="footer-icon-text" >Download the app</h3>
+                </mj-text>
             </mj-column>
-            <mj-column css-class="star">
-                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="center"/>
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/N0Hv3FYQ/piepass-icon.png" alt="" width="45px" align="left" />
+                <mj-text>
+                    <h3 class="footer-icon-text">Sing up for DashPass</h3>
+                </mj-text>
             </mj-column>
-            <mj-column css-class="star">
-                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="center" />
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/wTqH195k/friend-icon.png" alt="" width="30px" align="left" />
+                <mj-text>
+                    <h3 class="footer-icon-text">Refer and Earn Credit</h3>
+                </mj-text>
             </mj-column>
-            <mj-column css-class="star">
-                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="center"/>
-            </mj-column >
-            <mj-column css-class="star">
-                <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="center"/>
+            <mj-column>
+                <mj-image src="https://i.postimg.cc/9MyV7MNL/driver-icon.png" alt="" width="27px" align="left" />
+                <mj-text>
+                    <h3 class="footer-icon-text">Deliver with DoorDash</h3>
+                </mj-text>
             </mj-column>
         </mj-group>
 
