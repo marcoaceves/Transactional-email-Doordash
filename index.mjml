@@ -43,13 +43,11 @@
             margin: 0!important;
         }
         @media (max-width:480px) {
-        .footer-icon-text{
-            font-family: 'TTNorms', system-ui, sans-serif!important;
-            font-size: 12px!important;
-            line-height: 15px!important;
-            font-weight: 500!important;
-            margin: 0!important;
-        }
+            .footer-icon-col{
+                width: 50% !important;
+                padding-bottom:20px;
+            }
+            
 
         }
         </mj-style>    
@@ -206,25 +204,25 @@
         </mj-section>
         <mj-section>
         <mj-group>
-            <mj-column>
+            <mj-column css-class="footer-icon-col">
                 <mj-image src="https://i.postimg.cc/7Zcyt7FB/mobile-icon.png" alt="" width="55px" align="left" />
                 <mj-text>
                     <h3 class="footer-icon-text" >Download the app</h3>
                 </mj-text>
             </mj-column>
-            <mj-column>
+            <mj-column css-class="footer-icon-col">
                 <mj-image src="https://i.postimg.cc/N0Hv3FYQ/piepass-icon.png" alt="" width="45px" align="left" />
                 <mj-text>
                     <h3 class="footer-icon-text">Sing up for DashPass</h3>
                 </mj-text>
-            </mj-column>
-            <mj-column>
+            </mj-column >
+            <mj-column css-class="footer-icon-col">
                 <mj-image src="https://i.postimg.cc/wTqH195k/friend-icon.png" alt="" width="30px" align="left" />
                 <mj-text>
                     <h3 class="footer-icon-text">Refer and Earn Credit</h3>
                 </mj-text>
-            </mj-column>
-            <mj-column>
+            </mj-column >
+            <mj-column css-class="footer-icon-col">
                 <mj-image src="https://i.postimg.cc/9MyV7MNL/driver-icon.png" alt="" width="27px" align="left" />
                 <mj-text>
                     <h3 class="footer-icon-text">Deliver with DoorDash</h3>
