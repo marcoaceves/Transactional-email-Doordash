@@ -42,6 +42,16 @@
             font-weight: 500!important;
             margin: 0!important;
         }
+        @media (max-width:480px) {
+        .footer-icon-text{
+            font-family: 'TTNorms', system-ui, sans-serif!important;
+            font-size: 12px!important;
+            line-height: 15px!important;
+            font-weight: 500!important;
+            margin: 0!important;
+        }
+
+        }
         </mj-style>    
         <mj-style inline="inline">
             .star td{
@@ -56,6 +66,7 @@
             padding: 48px 0 32px 0 !important;
             border-bottom: 1px solid #e7e7e7 !important;
             }
+            
 
         </mj-style>    
     </mj-head>
