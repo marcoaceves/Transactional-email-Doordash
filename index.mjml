@@ -7,7 +7,7 @@
         .name{
             color: #ff3008 !important;
             display: block;
-            font-size: 2em !important;
+            font-size: 3em !important;
             margin-block-start: 0.67em!important;
             margin-block-end: 0.67em!important;
             margin-inline-start: 0px !important;
@@ -29,6 +29,13 @@
             color: inherit!important;
             text-decoration: none!important;
         }
+        .your-receipt span{
+            font-weight: 700!important;
+            color: inherit!important;
+            text-decoration: none!important;
+            font-size: max(16px, 1.5rem)!important;
+            line-height: 1.9rem!important;
+        }
         .links{
         text-decoration: none !important;
         color: #ff3008 !important;
@@ -41,11 +48,54 @@
             line-height: 22px!important;
             font-weight: 500!important;
             margin: 0!important;
+            color: #000000 !important;
+            text-decoration: none!important;
         }
+        .footer-icon-anchor{ 
+            text-decoration: none!important;
+        }
+        .total{ 
+            text-align: right!important;
+            float:right!important;
+
+        }
+        .copy-links{
+            text-decoration: none!important;
+            font-family: 'TTNorms-Regular', Helvetica, Arial, sans-serif!important;
+            color: #ababab!important;
+
+        }
+        .privacy-policy{
+            font-size: 14px!important;
+            color: #ababab!important;
+            text-decoration: none!important;
+        }
+        .copy-warning{
+            text-decoration: none!important;
+            font-family: 'TTNorms-Regular', Helvetica, Arial, sans-serif !important;
+            font-size: 14px!important;
+            line-height: 18px!important;
+            color: #ababab!important;
+            font-weight: 400!important;
+            font-style: italic!important;
+        }
+        .copy-warning span{
+            text-decoration: underline!important;
+            font-family: 'TTNorms-Regular', Helvetica, Arial, sans-serif !important; 
+            font-size: 14px!important;
+            line-height: 18px!important;
+            color: #939393!important;
+            font-weight:400!important;
+            font-style: italic!important;
+        }
+
         @media (max-width:480px) {
             .footer-icon-col{
                 width: 50% !important;
-                padding-bottom:20px;
+                padding-bottom:20px!important;
+            }
+            .social-icons{
+                width: 25px!important;
             }
             
 
@@ -57,18 +107,21 @@
                 width: 30px!important;
                 height: 30px!important;
             }
+            .social-icons { 
+                margin:5px;
+            }
             .half{
                 width: 50% !important;
             }
             .border-bottom{
-            padding: 48px 0 32px 0 !important;
+            padding-bottom: 32px!important;
             border-bottom: 1px solid #e7e7e7 !important;
             }
             
 
         </mj-style>    
     </mj-head>
-    <mj-body background-color="#f4f4f4">
+    <mj-body background-color="#ffffff">
         <mj-raw>
             <!-- Header -->
         </mj-raw>
@@ -83,75 +136,54 @@
         <mj-section>
             <mj-column>
                 <mj-text>
-                    <h1 class="name">Thanks for your order, Angela</h1>
+                    <h1 class="name">Thanks for your order, Marco</h1>
                 </mj-text>
                 <mj-image src="https://i.postimg.cc/3rCYrkGR/section-1-img.png" alt="" href="#" align="left" / >
                 <mj-text>
                    <p class="del-time">The estimated delivery time for your order is <span>10:59 AM - 11:14 AM</span>. Track your order in the DoorDash app or website.</p>
                 </mj-text>
+                <mj-button border-radius="50px" color="white" background-color="#ff3008" font-size="17px" align="left" href="#">
+                    Track Your Order
+                </mj-button>
             </mj-column>
         </mj-section>
         <mj-raw>
             <!-- order total -->
         </mj-raw>
-        <mj-section>
+        <mj-section border="solid red 10px">
             <mj-column>
                 <mj-text>
                    <p class="del-time">
                     Paid with Apple Pay and/or credits
                     </p>
-                </mj-text>
-                <mj-text>
                    <p class="del-time">
                     Coya’s Cafe
                     </p>
-                </mj-text>
-                <mj-text>
                    <p class="del-time">
                    <span>Total: $20.82</span>
-                    
                     </p>
                 </mj-text>
-                <mj-text>
-                   <p class="del-time">
+                <mj-text css-class="border-bottom">
+                   <p class="your-receipt">
                    <span>Your receipt</span>
                     </p>
-                </mj-text>
-                <mj-text>
-                   <p class="address" >
+                    <p class="address" >
                     <span>123 Ma<span>in</span> St</span> <span>, Ne</span>w <span>Yor</span>k, <span>N</span>Y <span>11</span>111, USA
                     </p>
                 </mj-text>
-            </mj-column>
-        </mj-section>
-        <mj-section>
-            <mj-group>
-                <mj-column>
-                    <mj-text>
-                    <p  class="del-time"><span>Estimated Total</span></p>
-                    </mj-text>
-                </mj-column>
-                <mj-column>
-                    <mj-text align="right">
-                    <p  class="del-time"> <span>$20.82</span></p>
-                    </mj-text>
-                </mj-column>
-            </mj-group>
-        </mj-section>
-        <mj-raw>
-            <!-- recipt links -->
-        </mj-raw>
-        <mj-section>
-            <mj-column>
+                <mj-text>
+                    <p  class="del-time" align="left"><span>Total Charged:</span> <span class="total" align="right" > $20.82</span> </p>
+                    
+                </mj-text>
                 <mj-text color="#ff3008">
                     <a href="#" class="links" color="#ff3008">View Full Receipt</a>
                 </mj-text>
                 <mj-text>
                     <a href="#" class="links" color="#ff3008">Get Order Help</a>
                 </mj-text>
-            </mj-column>
+            </mj-column> 
         </mj-section>
-        <mj-raw>
+        <mj-raw>  
             <!-- review store  -->
         </mj-raw>
         <mj-section>
@@ -185,7 +217,7 @@
                 <mj-column css-class="star">
                     <mj-image href="#" src="https://i.postimg.cc/zfs8vWpL/star.png" alt="" width="30px" align="left"/>
                 </mj-column>
-            </mj-group>
+            </mj-group>   
             <mj-group css-class="half">
                 <mj-column width="50%">
                     <mj-text>
@@ -194,42 +226,9 @@
                 </mj-column>
             </mj-group>
         </mj-section>
-        <mj-raw>
+        <mj-raw> 
             <!-- footer -->
         </mj-raw>
-        <mj-section padding-top="50px">
-            <mj-column css-class="border-bottom">
-             <mj-image src="https://i.postimg.cc/NF4cdntT/footer-logo.png" alt="" width="183px" align="left" />
-            </mj-column>        
-        </mj-section>
-        <mj-section>
-        <mj-group>
-            <mj-column css-class="footer-icon-col">
-                <mj-image src="https://i.postimg.cc/7Zcyt7FB/mobile-icon.png" alt="" width="55px" align="left" />
-                <mj-text>
-                    <h3 class="footer-icon-text" >Download the app</h3>
-                </mj-text>
-            </mj-column>
-            <mj-column css-class="footer-icon-col">
-                <mj-image src="https://i.postimg.cc/N0Hv3FYQ/piepass-icon.png" alt="" width="45px" align="left" />
-                <mj-text>
-                    <h3 class="footer-icon-text">Sing up for DashPass</h3>
-                </mj-text>
-            </mj-column >
-            <mj-column css-class="footer-icon-col">
-                <mj-image src="https://i.postimg.cc/wTqH195k/friend-icon.png" alt="" width="30px" align="left" />
-                <mj-text>
-                    <h3 class="footer-icon-text">Refer and Earn Credit</h3>
-                </mj-text>
-            </mj-column >
-            <mj-column css-class="footer-icon-col">
-                <mj-image src="https://i.postimg.cc/9MyV7MNL/driver-icon.png" alt="" width="27px" align="left" />
-                <mj-text>
-                    <h3 class="footer-icon-text">Deliver with DoorDash</h3>
-                </mj-text>
-            </mj-column>
-        </mj-group>
-
-        </mj-section>
+        <mj-include path="footer.mjml" />
     </mj-body>
 </mjml>

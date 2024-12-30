@@ -1,0 +1,106 @@
+        <mj-raw>
+            <!-- footer -->
+        </mj-raw>
+        <mj-section padding-top="50px" background-color="#f4f4f4">
+            <mj-column css-class="border-bottom">
+             <mj-image href="#" src="https://i.postimg.cc/NF4cdntT/footer-logo.png" alt="" width="183px" align="left" />
+            </mj-column>        
+        </mj-section>
+        <mj-section background-color="#f4f4f4">
+            <mj-group>
+                <mj-column css-class="footer-icon-col" >
+                    <mj-image href="#"  src="https://i.postimg.cc/7Zcyt7FB/mobile-icon.png" alt="" width="55px" align="left" />
+                    <mj-text>
+                        <a href="#" class="footer-icon-anchor"><h3  class="footer-icon-text">Download the app</h3></a>
+                    </mj-text>
+                </mj-column>
+                <mj-column css-class="footer-icon-col">
+                    <mj-image href="#"  src="https://i.postimg.cc/N0Hv3FYQ/piepass-icon.png" alt="" width="45px" align="left" />
+                    <mj-text>
+                    <a href="#" class="footer-icon-anchor"><h3  class="footer-icon-text">Sing up for DashPass</h3></a>
+                    </mj-text>
+                </mj-column >
+                <mj-column css-class="footer-icon-col">
+                    <mj-image href="#"  src="https://i.postimg.cc/wTqH195k/friend-icon.png" alt="" width="30px" align="left" />
+                    <mj-text>
+                    <a href="#" class="footer-icon-anchor"><h3  class="footer-icon-text">Refer and Earn Credit</h3></a>
+                    </mj-text>
+                </mj-column >
+                <mj-column  css-class="footer-icon-col">
+                    <mj-image href="#"  src="https://i.postimg.cc/9MyV7MNL/driver-icon.png" alt="" width="27px" align="left" />
+                    <mj-text>
+                        <a href="#" class="footer-icon-anchor"><h3  class="footer-icon-text">Deliver with DoorDash</h3></a>
+
+                    </mj-text>
+                </mj-column>
+            </mj-group> 
+        </mj-section>
+        <mj-section padding-bottom="0px">
+            <mj-group>
+                <mj-column>
+                    <mj-text color="#9a9a9a" align="left"line-height="1.5" mj-class="paragraph">
+                        ©2024 DoorDash Inc. 303 2nd Street, South Tower, Suite 800 San Francisco, CA 94107
+                        <br>
+                        <a href="#" class="privacy-policy"> Privacy Policy</p>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text>
+                        <span></span>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section padding-left="20px" padding-top="1px" >
+            <mj-group width="50%" css-class="half">
+                <mj-column css-class="social-icons" width="8px">
+                    <mj-image padding="0" href="#" src="https://i.postimg.cc/GtrRJCWd/fb-icon.png" alt="" width="8px" align="center"/>
+                </mj-column>
+                <mj-column css-class="social-icons" width="21px">
+                    <mj-image padding="0" href="#" src="https://i.postimg.cc/fRgw419f/tw-icon.png" alt="" width="21px" align="center"/>
+                </mj-column>
+                <mj-column css-class="social-icons" width="18px"> 
+                    <mj-image padding="0" href="#" src="https://i.postimg.cc/SNg48HDb/ig-icon.png" alt="" width="18px" align="center"/>
+                </mj-column>
+                <mj-column css-class="social-icons" width="18px">
+                    <mj-image padding="0" href="#" src="https://i.postimg.cc/jjwRRv60/blog-icon.png" alt="" width="18px" align="center"/>
+                </mj-column>
+            </mj-group>
+            <mj-group css-class="half">
+                <mj-column width="50%">
+                    <mj-text>
+                        <span> </span>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section >
+        <mj-section padding="0px">
+                <mj-column >
+                    <mj-text color="#9a9a9a" align="left" line-height="1" mj-class="paragraph" >
+                        <a class="copy-links" href="#">Help Center   
+                        </a>
+                        &nbsp;|&nbsp;
+                         <a class="copy-links"  href="#">View email in browser</a>
+                    </mj-text>
+                </mj-column>
+        </mj-section>
+        <mj-section padding-top="20px">
+            <mj-group>
+                <mj-column >
+                    <mj-text color="#9a9a9a" align="left"line-height="1.5">
+                        <a class="copy-warning" >This restaurant pays a commission to DoorDash on this order
+                        </a>
+                    </mj-text>
+                    <mj-text>
+                         <a class="copy-warning"  href="#">Prop 65 Restaurant <span>WARNING</span> </a>
+                    </mj-text>
+                    <mj-text>
+                         <a class="copy-warning"  href="#">Prop 65 Alcohol <span>WARNING</span>
+Drinking distilled spirits, beer, coolers, wine, and other alcoholic beverages may increase cancer risk, and, during pregnancy, can cause birth defects.  For more information go to www.P65Warnings.ca.gov/alcohol.</a>
+                    </mj-text>
+                    <mj-text>
+                         <a class="copy-warning"  href="#">Prop 65 Restaurant <span>WARNING</span></a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
